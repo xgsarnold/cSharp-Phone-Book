@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PhoneBook.Data;
 
 namespace PhoneBook.Controllers
 {
@@ -21,7 +22,7 @@ namespace PhoneBook.Controllers
         }
 
         public ActionResult Contact()
-        {
+        { 
             ViewBag.Message = "Your contact page.";
 
             return View();
